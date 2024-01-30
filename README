@@ -23,6 +23,7 @@ Files
 Data_analysis.ipynb contains the code I used to clean the raw data for use in the machine learning models.
 Data_analysis_Neural_networks.ipynb contains the code I used to build the Neural network and evaluate it on the data I cleaned.
 Data_analysis_Random_Forest.ipynb contains the code I used to build the Random Forest and evaluate it on the data I cleaned.
+project 2.pptx contains my presentation slides
 ################################################################################################################################
 Feedback suggestions
 
