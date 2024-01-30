@@ -1,1 +1,37 @@
+Project 2 Group 4 Read me
+
+###############################################################################################################################
+Proposal
+
+Group 4 will be utilizing a large dataset from the U.S Small Business association and utilizing two methods of machine 
+learning to predict whether or not a small business will default. The methods to be utilized are neural networks and 
+random forest. The criteria we will be using to judge whichever method is more successful will be accuracy.
+
+###############################################################################################################################
+Materials & Methods
+
+There will be three components to this project. The first will be how we process the data for these models. 
+The dataset in question will be sourced from kaggle and is primary data sourced from the U.S. Small Business association. 
+As it is large we will be using Google colab to clean and prepare the Data.
+
+The second we will be creating the skeleton for each of the machine learning processes we will be using.
+Third will be fitting the data to each model and evaluating how accurate each of the models are.
+
+###############################################################################################################################
+Files
+
+Data_analysis.ipynb contains the code I used to clean the raw data for use in the machine learning models.
+Data_analysis_Neural_networks.ipynb contains the code I used to build the Neural network and evaluate it on the data I cleaned.
+Data_analysis_Random_Forest.ipynb contains the code I used to build the Random Forest and evaluate it on the data I cleaned.
+################################################################################################################################
+Feedback suggestions
+
+I implemented the suggestions that Professor Marghrub suggested after my presentation had be concluded. I added the GrApprv column
+back into the data set and ran both models with it. I didnt notice a huge increase in accruacy, however, when I ran the features 
+importance function in the Random forest the GrApprv column had the highest importance attached to it. Which suggests adding it 
+back in imporved the model.
+
+I also implemented the importance features as requested into my random forest code. what I found was that while there were many 
+columns with a low importance they were categorical variables that I would feel if I dropped them my model wouldnt improve that much. 
+
 
